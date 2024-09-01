@@ -16,8 +16,8 @@ function CertSection() {
         <div>
             <Separation title="Education"/>
             <div className="flex gap-4 w-full justify-between">
-                <div className="m-4">
-                    lorem ipsum
+                <div>
+                    <h3 className="text-5xl font-bold">Computer Science <br></br> Software Engineering</h3>
                 </div>
 
                 <div className="flex">

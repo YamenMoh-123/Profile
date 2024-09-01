@@ -6,7 +6,7 @@ const Typing= ({ messages, typingSpeed = 150 }) => {
     const [blink, setBlink] = useState(true);
     const [reverse, setReverse] = useState(false);
 
-    // Effect for blinking cursor
+
     useEffect(() => {
         const cursorInterval = setInterval(() => {
             setBlink((prev) => !prev);
@@ -14,7 +14,7 @@ const Typing= ({ messages, typingSpeed = 150 }) => {
         return () => clearInterval(cursorInterval);
     }, []);
 
-    // Effect for typing and deleting letters
+
     useEffect(() => {
         if (index >= messages.length) {
             setIndex(0);
@@ -41,11 +41,17 @@ const Typing= ({ messages, typingSpeed = 150 }) => {
 
     return (
         <div className="flex justify-center items-center">
-            <p className="text-lg font-mono">
-                I am {`${messages[index].substring(0, subIndex)}${blink ? '|' : ' '}`}
+            <p className="text-lg font-mono flex">
+                I am &nbsp;<span style={{ color: 'black' }}>
+
+            </span>
+                <span style={{ color: 'blue' }}>
+                {messages[index].substring(0, subIndex)}{blink ? '|' : ' '}
+            </span>
             </p>
         </div>
     );
+
 };
 
 export default Typing;

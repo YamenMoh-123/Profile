@@ -20,16 +20,13 @@ function ExpSection() {
                 <div>
                     <ul className="flex">
                         <li className="m-4 w-1/4 pl-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Lenovo Warranty Support with over 200 satisfied customers around the Windsor-Essex region
                         </li>
                         <li className="m-4 w-1/4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Installation and Configuration of Cisco switches, routers, and access points for multiple business
                         </li>
                         <li className="m-4 w-1/4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            5+ years of experience in customer service and component level technical repair
                         </li>
 
 
@@ -43,23 +40,20 @@ function ExpSection() {
             <div className="flex p-10 mt-20 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-10">
                 <div className="w-1/4">
                     <h5 className="mb-2 text-3xl font-bold tracking-tight">
-                        IT Support Specialist
+                        Teaching Assistant
                     </h5>
                 </div>
 
                 <div>
                     <ul className="flex">
                         <li className="m-4 w-1/4 pl-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Assisted 3 core courses with over 200 students each in the Computer Science program
                         </li>
                         <li className="m-4 w-1/4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Hosted weekly office hours and lab sessions to assist students with, Programming and Algorithms I and Computer Architecure
                         </li>
                         <li className="m-4 w-1/4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Providing 1-on-1 tutoring for students struggling with course material to help improve grades
                         </li>
 
 
