@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from "./Header";
+import Header from "../Layout/Header";
 import Intro from "./Intro";
 import CertSection from "./CertSection";
 import ExpSection from "./ExpSection";
 import ProjectSection from "./ProjectSection";
-import back from "./images/back.jpg";
+import back from "../images/back.jpg";
 import About from "./About";
 import SkillSection from "./SkillSection";
-import Footer from "./Footer";
+import Footer from "../Layout/Footer";
 
 function Home(props) {
     const appStyle = {
