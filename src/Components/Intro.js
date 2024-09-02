@@ -11,7 +11,7 @@ function Intro() {
     return (
         <div className="flex justify-center xl:mx-24 xl:block">
             <section className="pt-10 xl:pt-28 pb-2 bg-white bg-opacity-0">
-                <div className="grid grid-cols-1 lg:grid-cols-12 py-6 mx-auto max-w-screen-2xl">
+                <div className="grid grid-cols-1 lg:grid-cols-12 py-6 mx-auto max-w-screen-full">
                     <div className="lg:col-span-4 col-span-1">
                         <h1 className="text-7xl font-extrabold mb-3">
                             Hi I'm</h1>

@@ -48,7 +48,7 @@ function Contact() {
             <div>
                 <header>
                     <nav className="py-2 lg:py-4">
-                        <div className="flex justify-between mx-10 xl:mx-24 items-center max-w-screen-2xl">
+                        <div className="flex justify-between mx-10 xl:mx-24 items-center max-w-screen-full">
                             <a href="/public" className="flex items-center">
                                 <img src={logo} className="h-6 sm:h-9" alt="Logo"/>
                             </a>
